@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrulyCourse</title>
+</head>
+
+
+<style>
+    #searchButton {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: #604285;
+        color: white;
+        /* padding: 4px 14px ; */
+        margin-top:10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .box{
+    width: 100%;
+    text-align:center;
+    height: 100px;
+}
+
+   #searchBox {
+    
+    margin: 0 auto;
+    display: inline-block;
+    height: 30px;
+    border-radius:10px;
+    
+}
+</style>
+
+<body>
+<div>
+    <div class="topnav">
+    
+    <a href="#TrulyCourse" class="active">TrulyCourse</a>
+    <a href="#Logout" id="Logout">Logout</a>
+  
+   
+   </div>
+
+   <div class="box">
+            <input type="text" id="searchBox" placeholder="Type here to search" size="50">
+            <button id="searchButton">Search</button>
+   </div>
+    
+       
+        <div id="first">
+             <div id="second">Video Preview 
+                 <!-- <video [src]="url" width="500" height="170" alt=""></video>  -->
+             </div>
+             <p id="video">Video URL :  
+                  <!-- <textarea matLinkPreview></textarea>
+                 <mat-link-preview-container [multiple]="true">
+                 </mat-link-preview-container>  -->
+               </p>
+             <div id="third" >PDF Preview</div>  
+             <p id="pdf">PDF URL : </p>     
+       
+
+        </div>
+  
+</div>
+
+</body>
+</html> 
