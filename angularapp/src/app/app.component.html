@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+
+      <title>Sign Up</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" href="app.component.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600"
+        rel="stylesheet"
+        type="text/css"
+      />
+     
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    </head>
+    <ul>
+      <li><a href="#home"><b>TrulyCourse</b></a></li>
+     
+      <li style="float:right"><a class="active" href="#about">LogOut</a></li>
+    </ul>
+    <body class="body">
+        <div class="form text-center">
+          <img src=
+            "https://thekatynews.com/wp-content/uploads/2020/09/cup-300x271.png"
+                    alt=" logo"
+                    align="right">
+          <form >
+            
+            <table class="center">
+              <tr><td>
+            <h1 > Sign Up</h1>
+    
+              </td></tr>
+              <tr><td>
+            <input  type="email" placeholder=" Enter email" id="email"/></td></tr>
+            <tr><td>
+            </table>  <table class="center">
+                          <tr><td>
+            <input  type="text" placeholder="Enter Username" id="username"/> </td></tr>
+            <tr><td>
+            <input  type="text" placeholder="Enter MobileNumber" id="mobilenumber"/></td></tr>
+            <tr><td> <input   type="password" id="password" placeholder="Password" /></td></tr>
+            <tr><td><input type="password" id="confirmpassword" placeholder="Confirm password" /></td></tr>
+            <tr><td ><button  type="button" id="submitbutton" onclick="window.location.href='login.html'">
+              Submit
+            </button></td></tr>
+          </table>
+          
+          <p id="signinLink" align="center"> Already a user? <a href="#tologin" >Login </a></p>
+          
+          </form>
+          
+        
+
+          
+            
+      </div>
+    </body>
+    <script>
+      function show() {
+        var password = document.getElementById("password");
+        var icon = document.querySelector(".fas");
+
+        // ========== Checking type of password ===========
+        if (password.type === "password") {
+          password.type = "text";
+        } else {
+          password.type = "password";
+        }
+      }
+    </script>
+  </html>
+</html>
