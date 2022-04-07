@@ -1,0 +1,88 @@
+.card{
+    border-top:0px solid rgba(238,230,230,0.445);
+    border-bottom:15px solid rgba(238,230,230,0.445);
+    border-right:15px solid rgba(238,230,230,0.445);
+    border-left:30px solid rgba(238,230,230,0.445);
+    width:1000px;
+    padding:10px;
+    position:absolute;
+    top:0px;
+    left:100px;
+    right:100px;
+    margin:0px;
+    height:700px;
+}
+h2{
+    padding:9px;
+    padding-left:3px;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:rgb(136,38,201);
+    text-align:center;
+    margin-bottom:-50px;
+    margin-right:500px;
+    margin-left:200px;
+}
+div{
+    padding:5px;
+    padding-left:50px;
+    text-align:left;    
+}
+input{
+    padding:25px;
+    width:52%;
+    text-align:left;
+    background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);    
+}
+p{
+    text-align:center;
+    padding:-3px;
+    padding-right:400px;
+}
+label{
+    text-align:right;
+    margin-bottom:-10px;
+}
+h4{
+    margin-top:-7px;
+    margin-left:-1px;
+    margin-right:-7px;
+    margin-bottom:0px;
+    padding:25px;
+    background-color:#440381c6;
+    color:#fafafa;
+    padding-left:15px;
+}
+.button{
+    margin:10px;
+    padding:3px;
+    width:100px;
+    background:#8f66cc;
+    font-size:1.5rem;
+    color:white;
+    text-align:center;
+    margin-left:250px;
+}
+img{
+    float:left;
+    width:400px;
+    text-align:left;
+    display:block;
+    position:relative;
+    left:60%;
+    bottom:50%;
+    top:400px;
+    transform:translate(-50%,-25);
+}
+#header{
+    margin-bottom:-320px;
+    margin-right:-120px;
+    margin-left:-65px;
+    margin-right:-10px;
+    margin-top:-10px;
+}
+#emailid{background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);}
+#usernameid{background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);}
+#mobilenumberid{background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);}
+#passwordid{background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);}
+#confirmpasswordid{background-image:linear-gradient(to top right,#fafafa 30%,#ab7cf1 75%);}
