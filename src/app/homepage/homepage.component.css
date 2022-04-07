@@ -1,0 +1,106 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 13px;
+    overflow: hidden;
+    background-color:rgb(131, 141, 233);
+  }
+
+  li a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+li {
+    display: inline;
+  }
+
+.li {
+    float: left;
+  }  
+
+
+
+  li a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+ li img{
+     width: 13px;
+ }
+
+mat-grid-tile {
+  background: rgb(192, 196, 235);
+}
+
+#searchBox {
+  margin: 0 auto;
+  display: inline-block;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  
+  
+  }
+  #searchButton {
+    margin: 10px 9px;
+    background-color: rgb(131, 141, 233);
+    color: white;
+    padding: 4px 14px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .box{
+    width: 100%;
+    text-align:center;
+    height: 100px;
+    }
+  h3{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+    .yr{
+      text-align: center;
+
+    }
+
+#grid1{
+  border-radius: 29px;
+}
+
+img {
+  width:70px;
+  justify-content: center;
+}
+
+.card {
+  padding: 40px;
+  margin: 16px;
+}
+
+h5{
+  text-align-last: auto;
+}
+
+.card{
+  background-color: rgb(204, 204, 220);
+  text-align: center;
+}
+
+button a{
+  color: black;
+}
+
+.img-container {
+  text-align: center;
+}
+
+mat-icon{
+  font-size:18px;
+}
